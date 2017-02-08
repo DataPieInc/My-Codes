@@ -1,6 +1,6 @@
 import plotly
 import plotly.plotly as py
-plotly.tools.set_credentials_file(username='makosi', api_key='xqt6l96vmb')
+plotly.tools.set_credentials_file(username='#', api_key='#')
 import plotly.graph_objs as go
 
 import pandas as pd
