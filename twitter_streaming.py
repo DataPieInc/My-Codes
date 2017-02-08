@@ -1,3 +1,4 @@
+# Working With Twitter Streaming API
 import sys
 import string
 import time
@@ -12,10 +13,10 @@ def get_twitter_auth():
 
     Return: tweepy.OAuthHandler object
     '''
-    consumer_key = 'JRMfhjfctf8riEyRHXY58iLb3'
-    consumer_secret = 'OOJu2CekoR46dKuxJezo6bdqWrIIxWI7jpRiyBWitRwIy4Gs3s'
-    access_token = '2383505118-VyAK1KR9Ck17IIGhdSsQNlNHK9Ki09b6DtGH3Sn'
-    access_secret = 'br4zZZudQUaLtXUmN098oLqEQA1LOgtpWcpIz5mee5ris'
+    consumer_key = '#'
+    consumer_secret = '#'
+    access_token = '#'
+    access_secret = '#'
 
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_secret)
